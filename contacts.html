@@ -8,29 +8,62 @@
 </head>
 <body>
 
-<nav>
+<nav class="">
   <ul>
     <li><a href="index.html">Home</a></li>
-    <li><a href="experience.html">Personal Experience</a></li>
+    <li><a href="experience.html">Personal experience</a></li>
     <li><a href="contacts.html" class="active">Contacts</a></li>
     <li><a href="hobbies.html">Hobbies</a></li>
   </ul>
 </nav>
 
+<marquee class="name" direction="right" scrollamount="6">Kevian Kipchumba bett</marquee>
+
 <main>
   <h1>Contacts</h1>
-
-  <p><strong>Phone:</strong> +254 707 06 50 50</p>
+  <p><strong>Phone:</strong> +254 707065050</p>
   <p><strong>Email:</strong> bettkevian@gmail.com</p>
-  <p><strong>Postal address:</strong> P.O. Box 408 - 40200, Kisii, Kenya</p>
+  <p><strong>Postal address:</strong> P.O. Box 4550 - 40200 ,Kisii , Kenya</p>
 
-  <!-- Opens the visitor's mailing application -->
-  <a class="email-link" href="mailto: bettkevian@gmail.com?subject=Hello%20from%20your%20CV%20website">Email Me</a>
+  <a class="email-link" href="mailto:bettkevian@gmail.com?">Email me</a>
 
   <hr>
+
+  <h2>Send me a message</h2>
+  <form class="contact-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+    <label for="name">Enter your Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">E-mail address*:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Message Subject:</label>
+    <input type="text" id="subject" name="subject">
+
+    <label for="message">Enter your Message*:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <div class="copy">
+      <input type="checkbox" id="copy" name="copy">
+      <label for="copy" style="display:inline;font-weight:normal;">E-mail a copy of this message to your own address.</label>
+    </div>
+
+    <button type="submit">Send</button>
+  </form>
 </main>
 
-<footer>&copy; 2026 Kevian. All rights reserved.</footer>
+<nav class="bottom">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="experience.html">Personal experience</a></li>
+    <li><a href="contacts.html" class="active">Contacts</a></li>
+    <li><a href="hobbies.html">Hobbies</a></li>
+  </ul>
+</nav>
+
+<footer>
+  <p>&copy; 2026 Kevian Kipchumba bett. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
